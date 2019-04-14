@@ -88,14 +88,11 @@ plot(1:length(E),E)
 
 %K-mean clustring
 
-k=2;
-centroids =zeros(k, size(x, 2));
-randidx =randperm(size(k,1));
-centroids =x(randidx(1:k), :);
+%k=2;
+%centroids =zeros(k, size(x, 2));
+%randidx =randperm(size(k,1));
+%centroids =x(randidx(1:k), :);
 
 
 
 
-
-%anamoly
-u=mean(x);
